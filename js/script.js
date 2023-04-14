@@ -8,17 +8,17 @@ for(let i = 1; i <= 100; i++)
 {
     if (i % 15 == 0){
         eleGrid.innerHTML = eleGrid.innerHTML + `<div class="cell div15">FrizzBuzz</div>`;
-        console.log("FizzBuzz");
+        //console.log("FizzBuzz");
     }else if (i % 3 == 0){
         eleGrid.innerHTML = eleGrid.innerHTML + `<div class="cell div3">Frizz</div>`;
-        console.log("Fizz");
+        //console.log("Fizz");
     }else if (i % 5 == 0){
         eleGrid.innerHTML = eleGrid.innerHTML + `<div class="cell div5">Buzz</div>`;
-        console.log("Buzz");
+        //console.log("Buzz");
     }
     else{
-        console.log(i);
         eleGrid.innerHTML = eleGrid.innerHTML + `<div class="cell">${i}</div>`;
+         //console.log(i);
     }
     
 
